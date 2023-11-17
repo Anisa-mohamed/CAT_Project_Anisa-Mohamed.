@@ -1,0 +1,118 @@
+body {margin: 0PX;}
+#div1 { background-color: purple;
+    position: fixed;
+      padding: 5px;
+      list-style-type: none;
+      text-align: center;
+      width: 1560px;
+      margin: 0px auto;
+  }
+#div1 ul li a h1 {position: absolute;
+  margin-top: 9px;
+  top: 0px;
+  margin-left: 50px;}
+
+
+#div1 ul li a h1:hover {color: white;}
+
+#div1 ul li { display: inline;
+              text-align-last: center;
+              margin-inline-start: 20px;
+              }
+
+#div1 ul li a { text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Verdana,;
+   margin-right: 20px;
+   margin-left: 30px;
+   padding: .2em 1em;
+   color: rgb(226, 219, 219);
+   background-color: b(245, 126, 219);
+   padding: 10px;
+     ;}
+
+
+#div1 ul li a:hover { color:orangered;;}
+
+
+
+
+/* MAIN ========================================= */
+
+.main
+{padding-top: 80px;
+
+    font-family: Arial;
+    font-size: 16px;
+
+  }
+
+.main h2 {  font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    margin-left: 30px;
+     color: rgb(97, 91, 91);}
+
+.main a:hover { text-decoration: underline;}
+
+.main a{ font-style: italic;
+       list-style-type: none;
+     color:orangered;
+     display: inline;
+     text-decoration-line: none;}
+
+#tel {  font-family: 'Courier New', Courier, monospace;
+        font-size:large;
+        text-decoration: underline;
+         color: rgb(97, 91, 91);}
+
+.main img{ width: 400px;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-top: 10px;
+    height: 350px;}
+
+.main p{ line-height: 30px;
+margin: 30px;}
+
+
+
+
+/* MEDIA QUERIES========================================= */
+@media (max-width:600px) { .sidebarleft{ display: none;}
+.sidebarright{ display: none;}}
+
+@media (max-width:300px) { .sidebarleft{ display: none;}
+.sidebarright{ display: none;}}
+
+  
+  /* footer========================================= */
+
+#footer { background-color:white;
+  height: 60px;
+  width: 1310px;
+  border-radius: 5px;
+  clear: both;
+  color:rgb(122, 119, 119);
+  text-align: center;
+  padding: 15px;
+  font-size: 90%; 
+;}
+
+
+#footer  ul { 
+   padding: 5px;
+   list-style-type: none;
+   text-align: center;
+   margin: 10px;
+   border-radius:5px}
+
+#footer ul li { display: inline;}
+
+#footer ul li a { text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Verdana,;
+  padding: .2em 1em;
+  color: rgba(73, 71, 71, 0.87);
+  background-color: b(245, 126, 219);
+  padding: 5px;;}
+
+#footer ul li a:hover { color: orangered;
+}
